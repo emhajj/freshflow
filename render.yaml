@@ -1,12 +1,12 @@
 atabases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
+  - name: freshflow
+    databaseName: freshflow
+    user: freshflow
     plan: free
 
 services:
   - type: web
-    name: mysite
+    name: freshflow
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
