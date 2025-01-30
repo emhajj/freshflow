@@ -1,4 +1,4 @@
-atabases:
+databases:
   - name: freshflow
     databaseName: freshflow
     user: freshflow
